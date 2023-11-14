@@ -3146,6 +3146,7 @@ MonoBehaviour:
   - {fileID: 852677092}
   boundsMin: -6
   boundsMax: 6
+  _hasSwitchLine: 0
 --- !u!4 &2047568155
 Transform:
   m_ObjectHideFlags: 0
