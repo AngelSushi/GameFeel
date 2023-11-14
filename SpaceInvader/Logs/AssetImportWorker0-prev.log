@@ -1,16 +1,26 @@
 Using pre-set license
+<<<<<<< HEAD
 Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'fr' Physical Memory: 16222 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
 E:\Unity\2022.3.8f1\Editor\Unity.exe
+=======
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'fr' Physical Memory: 24426 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2021.3.16f1\Editor\Unity.exe
+>>>>>>> Enemy
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< HEAD
 E:/Github/GameFeel/SpaceInvader
 -logFile
 Logs/AssetImportWorker0.log
@@ -18,6 +28,15 @@ Logs/AssetImportWorker0.log
 51030
 Successfully changed project path to: E:/Github/GameFeel/SpaceInvader
 E:/Github/GameFeel/SpaceInvader
+=======
+D:/IIM/A4_2023_2024/Gamefeel/GameFeel/SpaceInvader
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59600
+Successfully changed project path to: D:/IIM/A4_2023_2024/Gamefeel/GameFeel/SpaceInvader
+D:/IIM/A4_2023_2024/Gamefeel/GameFeel/SpaceInvader
+>>>>>>> Enemy
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -39,8 +58,11 @@ E:/Github/GameFeel/SpaceInvader
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+<<<<<<< HEAD
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+=======
+>>>>>>> Enemy
     "memorysetup-temp-allocator-size-background-worker=32768"
     "memorysetup-temp-allocator-size-job-worker=262144"
     "memorysetup-temp-allocator-size-preload-manager=33554432"
@@ -49,6 +71,7 @@ E:/Github/GameFeel/SpaceInvader
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [19500] Host "[IP] 10.2.166.31 [Port] 0 [Flags] 2 [Guid] 543669477 [EditorId] 543669477 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MVVNCEQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [19500] Host "[IP] 10.2.166.31 [Port] 0 [Flags] 2 [Guid] 543669477 [EditorId] 543669477 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MVVNCEQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
@@ -1880,3 +1903,178 @@ AssetImportParameters requested are different than current active one (requested
   custom:scripting/monoscript/fileName/InputBindingPropertiesView.cs: c3a43f9e3c4cf814c7eae92d616bfbaf -> 
   custom:scripting/monoscript/fileName/InputState.cs: aac8577aed515a34370fbda6b0c1e20e -> 
   custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Flow.Editor: a9205de5ba5a9c2138f1b5ba0ad4ec3e -> 
+=======
+Player connection [25112] Host "[IP] 10.2.168.21 [Port] 0 [Flags] 2 [Guid] 567998380 [EditorId] 567998380 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-DT2NE6IB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25112] Host "[IP] 10.2.168.21 [Port] 0 [Flags] 2 [Guid] 567998380 [EditorId] 567998380 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-DT2NE6IB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 367.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path D:/unity/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/IIM/A4_2023_2024/Gamefeel/GameFeel/SpaceInvader/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+    Driver:   27.21.14.5763
+Initialize mono
+Mono path[0] = 'D:/unity/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/unity/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011764 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 300.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.946 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1947ms)
+		BeginReloadAssembly (245ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1333ms)
+			LoadAssemblies (246ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (805ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (122ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (301ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015780 seconds.
+Begin MonoManager ReloadAssembly
+Android Extension - Scanning For ADB Devices 5809 ms
+Symbol file LoadedFromMemory doesn't match image D:\IIM\A4_2023_2024\Gamefeel\GameFeel\SpaceInvader\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\IIM\A4_2023_2024\Gamefeel\GameFeel\SpaceInvader\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 313.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.794 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3796ms)
+		BeginReloadAssembly (364ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (3129ms)
+			LoadAssemblies (318ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (875ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (228ms)
+			SetupLoadedEditorAssemblies (1634ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (314ms)
+				BeforeProcessingInitializeOnLoad (340ms)
+				ProcessInitializeOnLoadAttributes (698ms)
+				ProcessInitializeOnLoadMethodAttributes (233ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 2.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5520 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (1.2 MB). Loaded Objects now: 5957.
+Memory consumption went from 215.7 MB to 214.5 MB.
+Total: 10.830700 ms (FindLiveObjects: 0.710200 ms CreateObjectMapping: 0.741800 ms MarkObjects: 8.427200 ms  DeleteObjects: 0.949700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 567089.476105 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(3e1683a14bf1dbf4c8af3ba8db289a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(3e1683a14bf1dbf4c8af3ba8db289a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f90d2dd6279581df21b8d0373ecde8b') in 0.106327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 137.503907 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(109e9bdd0fcc649c5bc59085c35bdc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(109e9bdd0fcc649c5bc59085c35bdc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef13bb1dfc9a810dcac12450e6ab388') in 0.008277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.496248 seconds.
+  path: Assets/Scenes/New Folder
+  artifactKey: Guid(1ddc8fff1ad23d0458b5618cfa9a449c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Folder using Guid(1ddc8fff1ad23d0458b5618cfa9a449c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35686bd46efcc3593180e4a63eb9e45') in 0.008301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.517882 seconds.
+  path: Assets/Scenes/EnemiesScene.unity
+  artifactKey: Guid(cf8986ac996ce7240b41c1c3999bcaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EnemiesScene.unity using Guid(cf8986ac996ce7240b41c1c3999bcaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64c56d829d429a11914fc44d12f9de3') in 0.010623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.870005 seconds.
+  path: Assets/Scenes/EnemiesScene.unity
+  artifactKey: Guid(cf8986ac996ce7240b41c1c3999bcaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EnemiesScene.unity using Guid(cf8986ac996ce7240b41c1c3999bcaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2dd9ab001a600024e9b08e70a52446e') in 0.010509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.980690 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.013655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.487016 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(09c31b452d188c045b8ff3c577307b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(09c31b452d188c045b8ff3c577307b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669dd2323418f493456248f9924634e8') in 0.008671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.863301 seconds.
+  path: Assets/Sprites/yellow.png
+  artifactKey: Guid(463e28ab94904f84fabf988c96561c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/yellow.png using Guid(463e28ab94904f84fabf988c96561c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a5dbc3229724ad673732aecd4f69c3') in 0.135024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.159630 seconds.
+  path: Assets/Sprites/yellow.png
+  artifactKey: Guid(463e28ab94904f84fabf988c96561c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/yellow.png using Guid(463e28ab94904f84fabf988c96561c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a295ae0b8f143880c3da39852715505') in 0.010721 seconds 
+>>>>>>> Enemy

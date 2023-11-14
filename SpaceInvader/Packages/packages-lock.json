@@ -185,6 +185,7 @@
       },
       "url": "https://packages.unity.com"
     },
+<<<<<<< HEAD
     "com.unity.mathematics": {
       "version": "1.2.6",
       "depth": 1,
@@ -192,6 +193,8 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+=======
+>>>>>>> Enemy
     "com.unity.render-pipelines.core": {
       "version": "14.0.8",
       "depth": 1,
